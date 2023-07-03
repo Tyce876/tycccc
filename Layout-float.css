@@ -1,0 +1,53 @@
+* /* Astric will select all elements */
+{
+  margin: 2px;;
+  padding: 2px;;
+}
+body
+{
+  background-color: rgb(223, 232, 234);
+}
+
+#top-header
+{
+  background-color: hsl(0, 100%, 50%);
+  border: 1px solid red;
+  margin: 10px;
+  padding: 10px;
+  color:rgb(0, 0, 0);
+  text-align: center; /**/
+}
+#top-menu
+{
+  background-color: rgb(49, 156, 7);
+}
+#side-menu
+{
+  background-color: #220fae;
+  width: 24%;
+  float: left;
+  height: auto;
+}
+#main-content
+{
+  background-color: rgb(93, 186, 203);
+  width: 50%;
+  float: left;
+  height: auto;
+}
+#right-column
+{
+  background-color: #e7e413;
+  width: 24%;
+  float: left;
+  height: auto;
+}
+#main-footer
+{
+  background-color: hsl(126, 88%, 37%);
+  clear: both;
+}
+.column-wrap
+{
+  color: aqua;
+}

@@ -1,0 +1,77 @@
+#list-intro-container
+{
+    background-color: rgb(149, 215, 215);
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+
+}
+.heading-intro
+{
+    text-align: center;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    color: greenyellow;
+    background-color: purple;
+    border-radius: 50%;
+    padding: 0.5em 0;
+    margin-top: 0.4em;
+}
+.topic-explain
+{
+color:rgb(49, 2, 36);
+font-weight: 500;
+font-style: italic;
+}
+#list-intro-container ul
+{
+list-style-type: square;
+}
+#list-ordered-container
+{
+    margin: 2rem;
+    padding: 1px;
+}
+.topic-demo
+{
+margin: 5px 0;
+padding: 1rem;
+}
+
+/*styling description list*/
+#list-description-container
+{
+    background-image: url('img/fruits.jpg');
+    border: 0.18rem lightgray solid;
+    border-radius: 0.5rem;
+}
+#list-description-container h1
+{
+    background-image: linear-gradient(45deg, red,green);
+    
+}
+#list-description-container dl
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;    
+    padding: 1rem;
+}
+#list-description-container dl div
+{
+    background-color: antiquewhite;
+    padding: 1rem;
+}
+#list-description-container dl dt
+{
+   font-weight: 700;
+   font-size: 1.5rem;
+}
+#list-description-container .topic-explain
+{
+    background-color: rgb(95, 245, 92);
+}
+#list-description-container h2
+{
+    background-color: rgb(95, 245, 92);
+}
